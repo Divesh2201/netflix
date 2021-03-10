@@ -12,6 +12,7 @@ export const Inner = styled.div`
     flex-direction: column;
   }
 `
+
 export const Item = styled.div`
   display: flex;
   border-bottom: 8px solid #222;
@@ -21,7 +22,11 @@ export const Item = styled.div`
 `
 
 export const Container = styled.div`
-
+  @media (max-width: 1000px) {
+    ${Item}:last-of-type h2 {
+      margin-bottom: 50px;
+    }
+  }
 `
 
 export const Pane = styled.div`
