@@ -1,5 +1,6 @@
 import styled from 'styled-components/macro'
 
+
 export const Inner = styled.div`
   display: flex;
   align-items: center;
@@ -60,8 +61,8 @@ export const SubTitle = styled.h2`
 `
 
 export const Video = styled.video`
-  width: 500px;
-  height: 500px;
+  width: 540px;
+  height: 520px;
   @media (max-width: 600px) {
     width: 330px;
     height: 330px;
