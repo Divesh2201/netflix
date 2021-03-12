@@ -8,7 +8,7 @@ export default function OptForm({children, ...restProps}) {
 OptForm.Input = ({...restProps}) => <Input {...restProps} />
 
 OptForm.Button = ({children, ...restProps}) => (
-  <Button {...restProps}> {children} <img src='/images/icons/chevron-right.png' alt='Try Now' /> </Button>
+  <Button {...restProps}> {children} <img src='https://divesh2201.github.io/netflix/images/icons/chevron-right.png' alt='Try Now' /> </Button>
 )
 
 OptForm.Text = ({children, ...restProps}) => <Text {...restProps}>{children}</Text>

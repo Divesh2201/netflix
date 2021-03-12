@@ -34,9 +34,9 @@ Accordion.Header = ({children, ...restProps}) => {
     <Header onClick={() => setToggleShow(toggleShow => !toggleShow)}toggleShow={toggleShow}{...restProps}>
       {children}
       {toggleShow ? (
-        <img src="/images/icons/close-slim.png" alt="Close" />
+        <img src="https://divesh2201.github.io/netflix/images/icons/close-slim.png" alt="Close" />
       ) : (
-        <img src="/images/icons/add.png" alt="Open" />
+        <img src="https://divesh2201.github.io/netflix/images/icons/add.png" alt="Open" />
       )}
     </Header>
   )
