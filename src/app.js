@@ -1,6 +1,6 @@
 import { Home, Signin, Signup, Browse } from './pages'
 import * as ROUTES from './constants/routes'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
 
 export default function App() {
