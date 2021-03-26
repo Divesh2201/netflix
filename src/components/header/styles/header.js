@@ -1,6 +1,6 @@
 import styled from 'styled-components/macro'
 import { Link as ReactRouterLink } from 'react-router-dom'
-import img from './home-bg.jpg'
+import img from 'https://divesh2201.github.io/netflix/images/misc/home-bg.jpg'
 
 export const Background = styled.div`
   display: flex;
