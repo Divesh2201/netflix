@@ -1,9 +1,9 @@
 import React from 'react'
 import { Header, OptForm, Feature } from '../components'
 import * as ROUTES from '../constants/routes'
-import logo from '../components/header/styles/logo.svg'
 
 export default function HeaderContainer({children}) {
+  let logo = 'https://divesh2201.github.io/netflix/images/icons/logo.svg'
   return (
     <Header>
       <Header.Frame>
