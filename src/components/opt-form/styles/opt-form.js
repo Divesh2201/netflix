@@ -12,6 +12,10 @@ export const Container = styled.div`
     align-items: center;
   }
 `;
+export const Break = styled.div`
+  flex-basis: 100%;
+  height: 0;
+`;
 
 export const Input = styled.input`
   max-width: 450px;

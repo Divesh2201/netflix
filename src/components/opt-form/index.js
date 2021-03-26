@@ -12,3 +12,7 @@ OptForm.Button = ({children, ...restProps}) => (
 )
 
 OptForm.Text = ({children, ...restProps}) => <Text {...restProps}>{children}</Text>
+
+OptForm.Break = ({ ...restProps }) => {
+  return <Break {...restProps} />;
+};
